@@ -1,5 +1,6 @@
 
-name: ${{ github.ref_name }}
+name: UI_AUTOMATION
+run-name:  ${{ github.ref_name }}
 
 on:
   workflow_dispatch:
