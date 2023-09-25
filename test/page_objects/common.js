@@ -6,10 +6,9 @@ class Common {
 		/**
 		 * Elements
 		 */
-		this.$pageHeader = title => $(`//div[contains(text(),'${title}')]`);
+		this.$homePageHeader = () =>  $('//h1[@class="site-header__logo"]');
+		this.$product = (product) =>$(`//h1[contains(text(),"${product}")]`);
 	}
-
-
 	/**
 	 * Methods
 	 */

@@ -1,4 +1,8 @@
 {
-    "getStarted" : "Get started"
-    
+    "item" : ["Headphone" , "Gadget"],
+    "product" : ["P9", "Bluetooth" , "WTS"],
+    "price" : ["£22.91" , "£31.60" , "£16.59"],
+    "color" : ["Blue" , "White" , "Pink" , "Black"],
+    "quantity" :["Reduce" , "Increase"],
+    "count" : "2"
 }
