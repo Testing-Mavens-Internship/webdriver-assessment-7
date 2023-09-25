@@ -28,6 +28,7 @@ describe("Tech trove headphone purchase flow automation",() => {
         await productPage.selectQuantity(data.quantity);
         await productPage.addToCart();
         await cartPage.reduceCount();
+        await cartPage.getProductNameAndColour();
         expect(await cartPage.$header().isDisplayed()).withContext("Expect cart page header to be displayed").toBe(true);
         expect(await cartPage.verifyProductNameAndColour(product,data.itemColour)).withContext("Expect product name and colour to be same as selected").toBe(true);
         expect(await cartPage.verifyTotalPrice(price,data.quantity)).withContext("Expect total price to be product of count and price of each").toBe(true);

@@ -1,0 +1,99 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1695639458822' stop='1695639501289'>
+    <name>Tech trove headphone purchase flow automation</name>
+    <title>Tech trove headphone purchase flow automation</title>
+    <test-cases>
+        <test-case start='1695639458823' status='passed' stop='1695639461148'>
+            <name>Launch url</name>
+            <title>Launch url</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-116.0.5845.188'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b512f442-370d-494f-81f4-f5390e4acf5e-attachment.png' type='image/png' size='610935'/>
+            </attachments>
+        </test-case>
+        <test-case start='1695639461150' status='passed' stop='1695639462313'>
+            <name>Select headphones and verify navigation</name>
+            <title>Select headphones and verify navigation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-116.0.5845.188'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='cb75c9f6-508c-47ca-8316-d9a33ea30069-attachment.png' type='image/png' size='338041'/>
+            </attachments>
+        </test-case>
+        <test-case start='1695639462314' status='passed' stop='1695639463883'>
+            <name>Select product and verify price and name</name>
+            <title>Select product and verify price and name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-116.0.5845.188'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='30fecf88-8b3e-41f8-87d9-6e487f91801e-attachment.png' type='image/png' size='291416'/>
+            </attachments>
+        </test-case>
+        <test-case start='1695639463894' status='failed' stop='1695639496637'>
+            <name>Select color,quantity and add to cart</name>
+            <title>Select color,quantity and add to cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-116.0.5845.188'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4a72b1bf-0409-4680-b30a-1df76d1baecc-attachment.png' type='image/png' size='371241'/>
+            </attachments>
+            <failure>
+                <message>Expect total price to be product of count and price of each: Expected false to be true.      
+                      actual expected
+                      
+                      falsetrue
+                      </message>
+                <stack-trace>Error: Expect total price to be product of count and price of each: Expected false to be true.
+                    at &lt;Jasmine>
+                    at &lt;Jasmine>
+                    at UserContext.&lt;anonymous> (C:\Users\saifu\Assessment\webdriver-assessment-7\tech-trove\specs\tech-trove.spec.js:34:145)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1695639496638' status='passed' stop='1695639501287'>
+            <name>Click on checkout</name>
+            <title>Click on checkout</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-116.0.5845.188'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='71c06fde-20e5-463d-b236-af827509251a-attachment.png' type='image/png' size='68855'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

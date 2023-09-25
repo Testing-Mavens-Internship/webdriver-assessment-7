@@ -1,51 +1,51 @@
 [ {
-  "uid" : "9ca5621856725425",
-  "name" : "Click on checkout",
-  "time" : {
-    "start" : 1695638795729,
-    "stop" : 1695638804316,
-    "duration" : 8587
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bfbfc89eaa6e7325",
-  "name" : "Launch url",
-  "time" : {
-    "start" : 1695638773728,
-    "stop" : 1695638780065,
-    "duration" : 6337
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5416816c3abd9186",
-  "name" : "Select product and verify price and name",
-  "time" : {
-    "start" : 1695638781723,
-    "stop" : 1695638792491,
-    "duration" : 10768
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f4d4cf869b958a51",
-  "name" : "Select headphones and verify navigation",
-  "time" : {
-    "start" : 1695638780071,
-    "stop" : 1695638781721,
-    "duration" : 1650
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6ad9d96e1b288f82",
+  "uid" : "55ad5885144af078",
   "name" : "Select color,quantity and add to cart",
   "time" : {
-    "start" : 1695638792498,
-    "stop" : 1695638795728,
-    "duration" : 3230
+    "start" : 1695639463894,
+    "stop" : 1695639496637,
+    "duration" : 32743
   },
   "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "32b8f7873358256d",
+  "name" : "Select product and verify price and name",
+  "time" : {
+    "start" : 1695639462314,
+    "stop" : 1695639463883,
+    "duration" : 1569
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6788c311ad5cc30",
+  "name" : "Click on checkout",
+  "time" : {
+    "start" : 1695639496638,
+    "stop" : 1695639501287,
+    "duration" : 4649
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eec4b04bab154285",
+  "name" : "Select headphones and verify navigation",
+  "time" : {
+    "start" : 1695639461150,
+    "stop" : 1695639462313,
+    "duration" : 1163
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94aa7c5703b3d6b1",
+  "name" : "Launch url",
+  "time" : {
+    "start" : 1695639458823,
+    "stop" : 1695639461148,
+    "duration" : 2325
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

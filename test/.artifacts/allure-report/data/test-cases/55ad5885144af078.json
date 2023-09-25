@@ -1,0 +1,86 @@
+{
+  "uid" : "55ad5885144af078",
+  "name" : "Select color,quantity and add to cart",
+  "fullName" : "Tech trove headphone purchase flow automation.Select color,quantity and add to cart",
+  "historyId" : "ad938ae8e28bdb9cb5999e10c168de48",
+  "time" : {
+    "start" : 1695639463894,
+    "stop" : 1695639496637,
+    "duration" : 32743
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect total price to be product of count and price of each: Expected false to be true.      \n                      actual expected\n                      \n                      falsetrue\n                      ",
+  "statusTrace" : "Error: Expect total price to be product of count and price of each: Expected false to be true.\n                    at <Jasmine>\n                    at <Jasmine>\n                    at UserContext.<anonymous> (C:\\Users\\saifu\\Assessment\\webdriver-assessment-7\\tech-trove\\specs\\tech-trove.spec.js:34:145)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect total price to be product of count and price of each: Expected false to be true.      \n                      actual expected\n                      \n                      falsetrue\n                      ",
+    "statusTrace" : "Error: Expect total price to be product of count and price of each: Expected false to be true.\n                    at <Jasmine>\n                    at <Jasmine>\n                    at UserContext.<anonymous> (C:\\Users\\saifu\\Assessment\\webdriver-assessment-7\\tech-trove\\specs\\tech-trove.spec.js:34:145)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fe065c34de0d8306",
+      "name" : "Screenshot",
+      "source" : "fe065c34de0d8306.png",
+      "type" : "image/png",
+      "size" : 371241
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Tech trove headphone purchase flow automation"
+  }, {
+    "name" : "testClass",
+    "value" : "Tech trove headphone purchase flow automation"
+  }, {
+    "name" : "testMethod",
+    "value" : "Select color,quantity and add to cart"
+  }, {
+    "name" : "package",
+    "value" : "Tech trove headphone purchase flow automation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-116.0.5845.188"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "55ad5885144af078.json",
+  "parameterValues" : [ "chrome-116.0.5845.188" ]
+}

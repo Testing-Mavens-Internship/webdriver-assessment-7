@@ -4,16 +4,16 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "CompoundError: One or more errors occurred. ---\n                \n                    Error: Expect product name and colour to be same as selected: Expected false to be true.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\saifu\\Assessment\\webdriver-assessment-7\\tech-trove\\specs\\tech-trove.spec.js:32:153)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    Error: Expect total price to be product of count and price of each: Expected false to be true.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\saifu\\Assessment\\webdriver-assessment-7\\tech-trove\\specs\\tech-trove.spec.js:33:145)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                ",
+      "name" : "Expect total price to be product of count and price of each: Expected false to be true.      \n                      actual expected\n                      \n                      falsetrue\n                      ",
       "children" : [ {
         "name" : "Select color,quantity and add to cart",
-        "uid" : "6ad9d96e1b288f82",
-        "parentUid" : "b0696a0ab9ac6e4b1320080b1ac45453",
+        "uid" : "55ad5885144af078",
+        "parentUid" : "aa4d2ecb333bca357dd325648a54a4b1",
         "status" : "failed",
         "time" : {
-          "start" : 1695638792498,
-          "stop" : 1695638795728,
-          "duration" : 3230
+          "start" : 1695639463894,
+          "stop" : 1695639496637,
+          "duration" : 32743
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,7 +23,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-116.0.5845.188" ]
       } ],
-      "uid" : "b0696a0ab9ac6e4b1320080b1ac45453"
+      "uid" : "aa4d2ecb333bca357dd325648a54a4b1"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

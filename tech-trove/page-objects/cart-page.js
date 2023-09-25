@@ -2,14 +2,13 @@ const Common = require("../page-objects/common");
 const {productPage} = require("../page-objects/product-page");
 let productName;
 let productColour;
-let totalPrice;
 class CartPage extends Common{
     constructor(){
         super();
         this.$header = () => $(`//div[text()="Cart"]`);
         this.$productName = () => $(`//div[contains(@class,"product-name")]//a`);
         this.$productColour = () => $(`//div[contains(@class,"product-name")]//span`);
-        this.$subTotal = () => $(`//p[contains(@class,"subtotal")]`);
+        this.$subTotal = () => $(`//p[contains(@class,"price")]`);
         this.$productDetails = () => $(`//aside`)
     }
     /**
@@ -36,7 +35,7 @@ class CartPage extends Common{
      * @returns boolean
      */
     async verifyTotalPrice(price,count){
-        totalPrice = await this.$subTotal().getText();
+        let totalPrice = await this.$subTotal().getText();
         totalPrice = totalPrice.replace(/£/g,'');
         totalPrice = parseFloat(totalPrice);
         return totalPrice == price*count;

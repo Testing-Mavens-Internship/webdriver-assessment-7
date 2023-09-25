@@ -1,12 +1,12 @@
 {
-  "uid" : "9ca5621856725425",
-  "name" : "Click on checkout",
-  "fullName" : "Tech trove headphone purchase flow automation.Click on checkout",
-  "historyId" : "ebb72e1aea694c9b344065317b4d2406",
+  "uid" : "eec4b04bab154285",
+  "name" : "Select headphones and verify navigation",
+  "fullName" : "Tech trove headphone purchase flow automation.Select headphones and verify navigation",
+  "historyId" : "1c022241727c754db5c71ab975c4e863",
   "time" : {
-    "start" : 1695638795729,
-    "stop" : 1695638804316,
-    "duration" : 8587
+    "start" : 1695639461150,
+    "stop" : 1695639462313,
+    "duration" : 1163
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -22,17 +22,17 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "66ff70864c0de9c3",
+      "uid" : "d9255e8dff86d1b1",
       "name" : "Screenshot",
-      "source" : "66ff70864c0de9c3.png",
+      "source" : "d9255e8dff86d1b1.png",
       "type" : "image/png",
-      "size" : 68874
+      "size" : 338041
     } ],
     "parameters" : [ ],
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 1,
-    "stepsCount" : 0,
-    "hasContent" : true
+    "hasContent" : true,
+    "stepsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -52,7 +52,7 @@
     "value" : "Tech trove headphone purchase flow automation"
   }, {
     "name" : "testMethod",
-    "value" : "Click on checkout"
+    "value" : "Select headphones and verify navigation"
   }, {
     "name" : "package",
     "value" : "Tech trove headphone purchase flow automation"
@@ -73,6 +73,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9ca5621856725425.json",
+  "source" : "eec4b04bab154285.json",
   "parameterValues" : [ "chrome-116.0.5845.188" ]
 }
