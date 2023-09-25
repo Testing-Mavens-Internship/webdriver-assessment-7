@@ -1,0 +1,78 @@
+{
+  "uid" : "8f3746166bac5dec",
+  "name" : "Select headphones and verify navigation",
+  "fullName" : "Tech trove headphone purchase flow automation.Select headphones and verify navigation",
+  "historyId" : "1c022241727c754db5c71ab975c4e863",
+  "time" : {
+    "start" : 1695637758580,
+    "stop" : 1695637760297,
+    "duration" : 1717
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d19e626216e39f3c",
+      "name" : "Screenshot",
+      "source" : "d19e626216e39f3c.png",
+      "type" : "image/png",
+      "size" : 373457
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Tech trove headphone purchase flow automation"
+  }, {
+    "name" : "testClass",
+    "value" : "Tech trove headphone purchase flow automation"
+  }, {
+    "name" : "testMethod",
+    "value" : "Select headphones and verify navigation"
+  }, {
+    "name" : "package",
+    "value" : "Tech trove headphone purchase flow automation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-116.0.5845.188"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8f3746166bac5dec.json",
+  "parameterValues" : [ "chrome-116.0.5845.188" ]
+}

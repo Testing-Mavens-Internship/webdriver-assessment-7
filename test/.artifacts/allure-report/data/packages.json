@@ -1,0 +1,77 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Tech trove headphone purchase flow automation",
+    "children" : [ {
+      "name" : "Launch url",
+      "uid" : "26b53ffd88604461",
+      "parentUid" : "f51ba6c4a8bf0f2ce422b1f871bdef87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1695637753576,
+        "stop" : 1695637758575,
+        "duration" : 4999
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-116.0.5845.188" ]
+    }, {
+      "name" : "Select headphones and verify navigation",
+      "uid" : "8f3746166bac5dec",
+      "parentUid" : "f51ba6c4a8bf0f2ce422b1f871bdef87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1695637758580,
+        "stop" : 1695637760297,
+        "duration" : 1717
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-116.0.5845.188" ]
+    }, {
+      "name" : "Select product and verify price and name",
+      "uid" : "9f3f4233547d9899",
+      "parentUid" : "f51ba6c4a8bf0f2ce422b1f871bdef87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1695637760299,
+        "stop" : 1695637791683,
+        "duration" : 31384
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-116.0.5845.188" ]
+    }, {
+      "name" : "Select color,quantity and add to cart",
+      "uid" : "31e061dfc91a8adf",
+      "parentUid" : "f51ba6c4a8bf0f2ce422b1f871bdef87",
+      "status" : "failed",
+      "time" : {
+        "start" : 1695637791700,
+        "stop" : 1695637804971,
+        "duration" : 13271
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-116.0.5845.188" ]
+    } ],
+    "uid" : "f51ba6c4a8bf0f2ce422b1f871bdef87"
+  } ]
+}

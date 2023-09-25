@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error: element (\"//div[text()=\"Cart\"]\") still not displayed after 5000ms",
+      "children" : [ {
+        "name" : "Select color,quantity and add to cart",
+        "uid" : "31e061dfc91a8adf",
+        "parentUid" : "aa738ce774c43d49090cc9de23498035",
+        "status" : "failed",
+        "time" : {
+          "start" : 1695637791700,
+          "stop" : 1695637804971,
+          "duration" : 13271
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-116.0.5845.188" ]
+      } ],
+      "uid" : "aa738ce774c43d49090cc9de23498035"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

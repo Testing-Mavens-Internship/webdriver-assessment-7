@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Sep 25 15:59:18 IST 2023","Mon Sep 25 15:59:20 IST 2023","1717","","Tech trove headphone purchase flow automation","","Tech trove headphone purchase flow automation","Select headphones and verify navigation","Select headphones and verify navigation",""
+"passed","Mon Sep 25 15:59:20 IST 2023","Mon Sep 25 15:59:51 IST 2023","31384","","Tech trove headphone purchase flow automation","","Tech trove headphone purchase flow automation","Select product and verify price and name","Select product and verify price and name",""
+"failed","Mon Sep 25 15:59:51 IST 2023","Mon Sep 25 16:00:04 IST 2023","13271","","Tech trove headphone purchase flow automation","","Tech trove headphone purchase flow automation","Select color,quantity and add to cart","Select color,quantity and add to cart",""
+"passed","Mon Sep 25 15:59:13 IST 2023","Mon Sep 25 15:59:18 IST 2023","4999","","Tech trove headphone purchase flow automation","","Tech trove headphone purchase flow automation","Launch url","Launch url",""
