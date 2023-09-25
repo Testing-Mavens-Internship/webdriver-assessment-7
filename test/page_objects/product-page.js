@@ -95,6 +95,8 @@ class ProductPage extends Commom {
 	 * @param {string} buyOption
 	 */
 	async clickOnAddToCart(buyOption) {
+		await this.$itemQuantity(buyOption).scrollIntoView({ block: "center" });
+        await this.$itemQuantity(buyOption).waitForClickable(5000);
 		await this.$itemQuantity(buyOption).click();
 	}
 }

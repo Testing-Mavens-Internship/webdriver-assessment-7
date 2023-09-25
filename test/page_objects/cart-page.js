@@ -1,5 +1,6 @@
 const Commom = require('./common.js');
 const {itemDetailsPage} = require('./item-details.js');
+const {productPage} = require('./product-page.js');
 class CartPage extends Commom {
 	constructor() {
 		super();
@@ -26,7 +27,7 @@ class CartPage extends Commom {
 	async verifyPriceOnCartPage() {
 		let cartValues = [];
 		let newCartValues = [];
-		cartValues = await itemDetailsPage.$$itemPrice().map(item => item.getText());
+		cartValues = await productPage.$$itemPrice().map(item => item.getText());
 		for (let i of cartValues) {
 			newCartValues.push(parseInt(i.replace(/[$,.]/g, '')));
 		}
@@ -51,6 +52,7 @@ class CartPage extends Commom {
      * Method to click on checkout button
      */
     async clickOnCheckOut() {
+
 		await this.$checkout().click();
 	}
 }

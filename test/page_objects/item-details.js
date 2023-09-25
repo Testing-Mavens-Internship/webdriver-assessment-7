@@ -10,6 +10,8 @@ class ItemDetailsPage extends Commom {
 	 * @param {string} item
 	 */
 	async clickOnItemName(item) {
+        await this.$itemName(item).scrollIntoView({ block: "center" });
+        await this.$itemName(item).waitForClickable(5000);
 		await this.$itemName(item).click();
 	}
 }
