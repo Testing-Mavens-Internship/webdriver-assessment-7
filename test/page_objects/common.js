@@ -6,7 +6,8 @@ class Common {
 		/**
 		 * Elements
 		 */
-		this.$pageHeader = title => $(`//div[contains(text(),'${title}')]`);
+		this.$header = ()=>$(`//a[@class="site-header__logo-link logo--has-inverted"]`)
+
 	}
 
 

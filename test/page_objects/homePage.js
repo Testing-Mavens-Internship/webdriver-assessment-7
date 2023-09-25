@@ -2,24 +2,21 @@ const Commom = require("./common");
 class Homepage extends Commom {
 	constructor() {
 		super();
-		this.$homePageHeader = (header) =>  $(`//h1[contains(text(),'${header}')]`);
-		this.$topNavigationBar = (menu) => $(`//div[@class="navbar-link-wrapper"]//a[contains(text(),'${menu}')]`);
+		this.$topBar = (section="Collections")=>$(`//a[contains(text(),"${section}")]/ancestor::li[@class="site-nav__item site-nav__expanded-item site-nav--has-dropdown"]`)
+		this.$subList =  (sub="Headphone")=>$(`//ul[@class="site-nav__dropdown text-left"]//a[contains(text(),"${sub}")]`)
+		this.$sectionHeader = (head="Headphone")=>$(`//h1[contains(text(),"${head}")]`)
 	}
 
 /**
  * Methods
 */
+	async clickOnHeadPhone(){
+		await this.$topBar().moveTo();
+		await this.$subList().waitForDisplayed()
+		await this.$subList().click()
+		await this.$sectionHeader().waitForDisplayed()
+	}
 
-/**
- * Method to click on Get Started
- * @param {String} name Name of the Navigation Icon
- * @param {String} header 
- */
-async getStarted(name,header){
-	await this.$topNavigationBar(name).click();
-	await this.$homePageHeader(header).waitForDisplayed({timeout: 30000, timeoutMsg: `Header still not displayed`});
-
-}
 
 }
 module.exports = new Homepage();
