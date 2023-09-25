@@ -66,4 +66,19 @@ describe('End to End Automation of Techtrove Application', () => {
         .withContext('Verify Total Price')
         .toBe(true);
     });
+    it('Reduce item by One and verify total', async() => {
+        await cartPage.reduceItem();
+        let newItemPrice = await cartPage.$unitPrice().getText();
+        let newUnitPrice = await parseFloat(newItemPrice.slice(1));
+        let newTotal = await cartPage.$totalPrice().getText();
+        let newTotalPrice = await parseFloat(newTotal.slice(1));
+        let newQuantity = await testData.quantity-1;
+        
+        expect(await cartPage.verifyTotal(newUnitPrice, newTotalPrice, newQuantity))
+        .withContext('Verify Total Price after item reduced')
+        .toBe(true);
+    });
+    it('Click on checkout button', async() => {
+        await cartPage.clickOnCheckOut();
+    })
 });
