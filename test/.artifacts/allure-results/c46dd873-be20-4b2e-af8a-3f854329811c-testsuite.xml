@@ -1,0 +1,131 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1695638773727' stop='1695638804320'>
+    <name>Tech trove headphone purchase flow automation</name>
+    <title>Tech trove headphone purchase flow automation</title>
+    <test-cases>
+        <test-case start='1695638773728' status='passed' stop='1695638780065'>
+            <name>Launch url</name>
+            <title>Launch url</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-116.0.5845.188'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e1716c27-2c98-47f7-8b6f-2e450d27dbe1-attachment.png' type='image/png' size='762029'/>
+            </attachments>
+        </test-case>
+        <test-case start='1695638780071' status='passed' stop='1695638781721'>
+            <name>Select headphones and verify navigation</name>
+            <title>Select headphones and verify navigation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-116.0.5845.188'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e54f0bce-eadd-4c76-8b00-57b4009a30cb-attachment.png' type='image/png' size='369793'/>
+            </attachments>
+        </test-case>
+        <test-case start='1695638781723' status='passed' stop='1695638792491'>
+            <name>Select product and verify price and name</name>
+            <title>Select product and verify price and name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-116.0.5845.188'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c0988ae9-bca7-47be-859f-931da5791ca5-attachment.png' type='image/png' size='449655'/>
+            </attachments>
+        </test-case>
+        <test-case start='1695638792498' status='failed' stop='1695638795728'>
+            <name>Select color,quantity and add to cart</name>
+            <title>Select color,quantity and add to cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-116.0.5845.188'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c3df0696-5a9e-4fb6-84dc-23015120348c-attachment.png' type='image/png' size='369209'/>
+            </attachments>
+            <failure>
+                <message>CompoundError: One or more errors occurred. ---
+                
+                    Error: Expect product name and colour to be same as selected: Expected false to be true.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (C:\Users\saifu\Assessment\webdriver-assessment-7\tech-trove\specs\tech-trove.spec.js:32:153)
+                        at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                --- End of stack trace ---
+                
+                    Error: Expect total price to be product of count and price of each: Expected false to be true.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (C:\Users\saifu\Assessment\webdriver-assessment-7\tech-trove\specs\tech-trove.spec.js:33:145)
+                        at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                --- End of stack trace ---
+                </message>
+                <stack-trace>Error: CompoundError: One or more errors occurred. ---
+                
+                    Error: Expect product name and colour to be same as selected: Expected false to be true.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (C:\Users\saifu\Assessment\webdriver-assessment-7\tech-trove\specs\tech-trove.spec.js:32:153)
+                        at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                --- End of stack trace ---
+                
+                    Error: Expect total price to be product of count and price of each: Expected false to be true.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (C:\Users\saifu\Assessment\webdriver-assessment-7\tech-trove\specs\tech-trove.spec.js:33:145)
+                        at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                --- End of stack trace ---
+                
+                    at getErrorFromFailedTest (C:\Users\saifu\Assessment\webdriver-assessment-7\node_modules\@wdio\allure-reporter\build\utils.js:82:60)
+                    at AllureReporter.onTestFail (C:\Users\saifu\Assessment\webdriver-assessment-7\node_modules\@wdio\allure-reporter\build\index.js:217:73)
+                    at AllureReporter.&lt;anonymous> (C:\Users\saifu\Assessment\webdriver-assessment-7\node_modules\@wdio\reporter\build\index.js:121:18)
+                    at AllureReporter.emit (node:events:513:28)
+                    at AllureReporter.emit (node:domain:489:12)
+                    at C:\Users\saifu\Assessment\webdriver-assessment-7\node_modules\@wdio\runner\build\reporter.js:36:56
+                    at Array.forEach (&lt;anonymous>)
+                    at BaseReporter.emit (C:\Users\saifu\Assessment\webdriver-assessment-7\node_modules\@wdio\runner\build\reporter.js:36:25)
+                    at JasmineReporter.emit (C:\Users\saifu\Assessment\webdriver-assessment-7\node_modules\@wdio\jasmine-framework\build\reporter.js:152:24)
+                    at JasmineReporter.specDone (C:\Users\saifu\Assessment\webdriver-assessment-7\node_modules\@wdio\jasmine-framework\build\reporter.js:85:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1695638795729' status='passed' stop='1695638804316'>
+            <name>Click on checkout</name>
+            <title>Click on checkout</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-116.0.5845.188'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a472f644-3715-46db-8cc3-391dc0a7c300-attachment.png' type='image/png' size='68874'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

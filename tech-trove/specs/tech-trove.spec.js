@@ -27,8 +27,14 @@ describe("Tech trove headphone purchase flow automation",() => {
         await productPage.selectColor(data.itemColour);
         await productPage.selectQuantity(data.quantity);
         await productPage.addToCart();
+        await cartPage.reduceCount();
         expect(await cartPage.$header().isDisplayed()).withContext("Expect cart page header to be displayed").toBe(true);
         expect(await cartPage.verifyProductNameAndColour(product,data.itemColour)).withContext("Expect product name and colour to be same as selected").toBe(true);
         expect(await cartPage.verifyTotalPrice(price,data.quantity)).withContext("Expect total price to be product of count and price of each").toBe(true);
+    });
+
+    it("Click on checkout",async()=>{
+        await cartPage.clickOnCheckout();
+        expect(await cartPage.$productDetails().isDisplayed()).withContext("Expect product details to be displayed").toBe(true);
     })
 })

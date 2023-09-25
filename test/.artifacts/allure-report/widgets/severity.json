@@ -1,41 +1,51 @@
 [ {
-  "uid" : "31e061dfc91a8adf",
-  "name" : "Select color,quantity and add to cart",
+  "uid" : "9ca5621856725425",
+  "name" : "Click on checkout",
   "time" : {
-    "start" : 1695637791700,
-    "stop" : 1695637804971,
-    "duration" : 13271
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "8f3746166bac5dec",
-  "name" : "Select headphones and verify navigation",
-  "time" : {
-    "start" : 1695637758580,
-    "stop" : 1695637760297,
-    "duration" : 1717
+    "start" : 1695638795729,
+    "stop" : 1695638804316,
+    "duration" : 8587
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "26b53ffd88604461",
+  "uid" : "bfbfc89eaa6e7325",
   "name" : "Launch url",
   "time" : {
-    "start" : 1695637753576,
-    "stop" : 1695637758575,
-    "duration" : 4999
+    "start" : 1695638773728,
+    "stop" : 1695638780065,
+    "duration" : 6337
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9f3f4233547d9899",
+  "uid" : "5416816c3abd9186",
   "name" : "Select product and verify price and name",
   "time" : {
-    "start" : 1695637760299,
-    "stop" : 1695637791683,
-    "duration" : 31384
+    "start" : 1695638781723,
+    "stop" : 1695638792491,
+    "duration" : 10768
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4d4cf869b958a51",
+  "name" : "Select headphones and verify navigation",
+  "time" : {
+    "start" : 1695638780071,
+    "stop" : 1695638781721,
+    "duration" : 1650
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ad9d96e1b288f82",
+  "name" : "Select color,quantity and add to cart",
+  "time" : {
+    "start" : 1695638792498,
+    "stop" : 1695638795728,
+    "duration" : 3230
+  },
+  "status" : "failed",
   "severity" : "normal"
 } ]

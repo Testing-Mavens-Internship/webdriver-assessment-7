@@ -10,6 +10,7 @@ class CartPage extends Common{
         this.$productName = () => $(`//div[contains(@class,"product-name")]//a`);
         this.$productColour = () => $(`//div[contains(@class,"product-name")]//span`);
         this.$subTotal = () => $(`//p[contains(@class,"subtotal")]`);
+        this.$productDetails = () => $(`//aside`)
     }
     /**
      * Method to get name and colour of product in cart page
@@ -40,8 +41,18 @@ class CartPage extends Common{
         totalPrice = parseFloat(totalPrice);
         return totalPrice == price*count;
     }
+    /**
+     * Method to reduce count 
+     */
     async reduceCount(){
         await this.$button("minus").click();
+    }
+    /**
+     * Method to click checkout
+     */
+    async clickOnCheckout(){
+        await this.$button("checkout").click();
+        await this.$productDetails().waitForDisplayed({timeout: 5000});
     }
 }
 module.exports = {cartPage : new CartPage()}

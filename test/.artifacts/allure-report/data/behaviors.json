@@ -3,13 +3,13 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "Launch url",
-    "uid" : "26b53ffd88604461",
+    "uid" : "bfbfc89eaa6e7325",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1695637753576,
-      "stop" : 1695637758575,
-      "duration" : 4999
+      "start" : 1695638773728,
+      "stop" : 1695638780065,
+      "duration" : 6337
     },
     "flaky" : false,
     "newFailed" : false,
@@ -20,13 +20,13 @@
     "parameters" : [ "chrome-116.0.5845.188" ]
   }, {
     "name" : "Select headphones and verify navigation",
-    "uid" : "8f3746166bac5dec",
+    "uid" : "f4d4cf869b958a51",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1695637758580,
-      "stop" : 1695637760297,
-      "duration" : 1717
+      "start" : 1695638780071,
+      "stop" : 1695638781721,
+      "duration" : 1650
     },
     "flaky" : false,
     "newFailed" : false,
@@ -37,13 +37,13 @@
     "parameters" : [ "chrome-116.0.5845.188" ]
   }, {
     "name" : "Select product and verify price and name",
-    "uid" : "9f3f4233547d9899",
+    "uid" : "5416816c3abd9186",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1695637760299,
-      "stop" : 1695637791683,
-      "duration" : 31384
+      "start" : 1695638781723,
+      "stop" : 1695638792491,
+      "duration" : 10768
     },
     "flaky" : false,
     "newFailed" : false,
@@ -54,13 +54,30 @@
     "parameters" : [ "chrome-116.0.5845.188" ]
   }, {
     "name" : "Select color,quantity and add to cart",
-    "uid" : "31e061dfc91a8adf",
+    "uid" : "6ad9d96e1b288f82",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1695637791700,
-      "stop" : 1695637804971,
-      "duration" : 13271
+      "start" : 1695638792498,
+      "stop" : 1695638795728,
+      "duration" : 3230
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-116.0.5845.188" ]
+  }, {
+    "name" : "Click on checkout",
+    "uid" : "9ca5621856725425",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695638795729,
+      "stop" : 1695638804316,
+      "duration" : 8587
     },
     "flaky" : false,
     "newFailed" : false,

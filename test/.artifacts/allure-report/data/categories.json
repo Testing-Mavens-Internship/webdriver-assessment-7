@@ -4,16 +4,16 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Error: element (\"//div[text()=\"Cart\"]\") still not displayed after 5000ms",
+      "name" : "CompoundError: One or more errors occurred. ---\n                \n                    Error: Expect product name and colour to be same as selected: Expected false to be true.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\saifu\\Assessment\\webdriver-assessment-7\\tech-trove\\specs\\tech-trove.spec.js:32:153)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    Error: Expect total price to be product of count and price of each: Expected false to be true.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\saifu\\Assessment\\webdriver-assessment-7\\tech-trove\\specs\\tech-trove.spec.js:33:145)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                ",
       "children" : [ {
         "name" : "Select color,quantity and add to cart",
-        "uid" : "31e061dfc91a8adf",
-        "parentUid" : "aa738ce774c43d49090cc9de23498035",
+        "uid" : "6ad9d96e1b288f82",
+        "parentUid" : "b0696a0ab9ac6e4b1320080b1ac45453",
         "status" : "failed",
         "time" : {
-          "start" : 1695637791700,
-          "stop" : 1695637804971,
-          "duration" : 13271
+          "start" : 1695638792498,
+          "stop" : 1695638795728,
+          "duration" : 3230
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,7 +23,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-116.0.5845.188" ]
       } ],
-      "uid" : "aa738ce774c43d49090cc9de23498035"
+      "uid" : "b0696a0ab9ac6e4b1320080b1ac45453"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

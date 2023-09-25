@@ -1,12 +1,12 @@
 {
-  "uid" : "9f3f4233547d9899",
+  "uid" : "5416816c3abd9186",
   "name" : "Select product and verify price and name",
   "fullName" : "Tech trove headphone purchase flow automation.Select product and verify price and name",
   "historyId" : "63ae322e98761f9a633d7b5fffef14c8",
   "time" : {
-    "start" : 1695637760299,
-    "stop" : 1695637791683,
-    "duration" : 31384
+    "start" : 1695638781723,
+    "stop" : 1695638792491,
+    "duration" : 10768
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -22,17 +22,17 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "1aa336c3b9738818",
+      "uid" : "bb1f10c0d2fab53",
       "name" : "Screenshot",
-      "source" : "1aa336c3b9738818.png",
+      "source" : "bb1f10c0d2fab53.png",
       "type" : "image/png",
-      "size" : 453565
+      "size" : 449655
     } ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 1
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -73,6 +73,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9f3f4233547d9899.json",
+  "source" : "5416816c3abd9186.json",
   "parameterValues" : [ "chrome-116.0.5845.188" ]
 }

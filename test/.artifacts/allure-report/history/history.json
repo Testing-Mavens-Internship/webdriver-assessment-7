@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "31e061dfc91a8adf",
+      "uid" : "6ad9d96e1b288f82",
       "status" : "failed",
-      "statusDetails" : "Error: element (\"//div[text()=\"Cart\"]\") still not displayed after 5000ms",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    Error: Expect product name and colour to be same as selected: Expected false to be true.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\saifu\\Assessment\\webdriver-assessment-7\\tech-trove\\specs\\tech-trove.spec.js:32:153)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    Error: Expect total price to be product of count and price of each: Expected false to be true.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\saifu\\Assessment\\webdriver-assessment-7\\tech-trove\\specs\\tech-trove.spec.js:33:145)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                ",
       "time" : {
-        "start" : 1695637791700,
-        "stop" : 1695637804971,
-        "duration" : 13271
+        "start" : 1695638792498,
+        "stop" : 1695638795728,
+        "duration" : 3230
       }
     } ]
   },
@@ -29,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8f3746166bac5dec",
+      "uid" : "f4d4cf869b958a51",
       "status" : "passed",
       "time" : {
-        "start" : 1695637758580,
-        "stop" : 1695637760297,
-        "duration" : 1717
+        "start" : 1695638780071,
+        "stop" : 1695638781721,
+        "duration" : 1650
       }
     } ]
   },
@@ -48,12 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "26b53ffd88604461",
+      "uid" : "bfbfc89eaa6e7325",
       "status" : "passed",
       "time" : {
-        "start" : 1695637753576,
-        "stop" : 1695637758575,
-        "duration" : 4999
+        "start" : 1695638773728,
+        "stop" : 1695638780065,
+        "duration" : 6337
       }
     } ]
   },
@@ -67,12 +67,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9f3f4233547d9899",
+      "uid" : "5416816c3abd9186",
       "status" : "passed",
       "time" : {
-        "start" : 1695637760299,
-        "stop" : 1695637791683,
-        "duration" : 31384
+        "start" : 1695638781723,
+        "stop" : 1695638792491,
+        "duration" : 10768
+      }
+    } ]
+  },
+  "ebb72e1aea694c9b344065317b4d2406" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9ca5621856725425",
+      "status" : "passed",
+      "time" : {
+        "start" : 1695638795729,
+        "stop" : 1695638804316,
+        "duration" : 8587
       }
     } ]
   }

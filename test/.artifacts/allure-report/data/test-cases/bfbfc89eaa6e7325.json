@@ -1,12 +1,12 @@
 {
-  "uid" : "26b53ffd88604461",
+  "uid" : "bfbfc89eaa6e7325",
   "name" : "Launch url",
   "fullName" : "Tech trove headphone purchase flow automation.Launch url",
   "historyId" : "4e1c0eb2e94f5b3ec1357b40342f2c89",
   "time" : {
-    "start" : 1695637753576,
-    "stop" : 1695637758575,
-    "duration" : 4999
+    "start" : 1695638773728,
+    "stop" : 1695638780065,
+    "duration" : 6337
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -22,17 +22,17 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "3d8ced866487b832",
+      "uid" : "18bf3240b5fec8cc",
       "name" : "Screenshot",
-      "source" : "3d8ced866487b832.png",
+      "source" : "18bf3240b5fec8cc.png",
       "type" : "image/png",
-      "size" : 697686
+      "size" : 762029
     } ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 1
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -73,6 +73,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "26b53ffd88604461.json",
+  "source" : "bfbfc89eaa6e7325.json",
   "parameterValues" : [ "chrome-116.0.5845.188" ]
 }
