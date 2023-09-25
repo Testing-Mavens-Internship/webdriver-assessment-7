@@ -1,4 +1,18 @@
 {
-    "getStarted" : "Get started"
+    "menuOptionName" : "Collections",
+    "dropDownName":"Headphone",
+    "productName":"P9 Air Max Wireless Stereo Headphone",
+    "quantitySelectPlus":"plus",
+    "quantitySelectMinus": "minus",
+    "limit1":"2",
+    "selectColor":"Blue",
+    "buttonName":"Add to cart",
+    "limit2":"1",
+    "email":"Email or mobile phone number",
+    "firstName":"First name (optional)",
+    "lastName":"Last name",
+    "Address":"Address",
+    "city":"City"
+
     
 }

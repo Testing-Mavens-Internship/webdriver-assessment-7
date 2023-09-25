@@ -1,25 +1,26 @@
-const Commom = require("./common");
-class Homepage extends Commom {
-	constructor() {
-		super();
-		this.$homePageHeader = (header) =>  $(`//h1[contains(text(),'${header}')]`);
-		this.$topNavigationBar = (menu) => $(`//div[@class="navbar-link-wrapper"]//a[contains(text(),'${menu}')]`);
-	}
+const Common = require("./common.js");
 
-/**
- * Methods
-*/
+class Homepage extends Common {
+    constructor() {
+        super();
+        this.$menuOptions=(optionName)=>$(`//li[@class="site-nav__item site-nav__expanded-item site-nav--has-dropdown"]/a[contains(text(),"${optionName}")]`) //Menu bar options
+        this.$menuDropDown=(dropDownNames)=>$(`//a[@class="site-nav__dropdown-link site-nav__dropdown-link--second-level "][contains(text(),"${dropDownNames}")]`) //dropdown option Name on menu bar
+        
+        
+    }
+    /**
+     * Function for hover the collections and click on the product(headphone)
+     * @param {String} menuOptionName 
+     * @param {String} dropDownName 
+     */
 
-/**
- * Method to click on Get Started
- * @param {String} name Name of the Navigation Icon
- * @param {String} header 
- */
-async getStarted(name,header){
-	await this.$topNavigationBar(name).click();
-	await this.$homePageHeader(header).waitForDisplayed({timeout: 30000, timeoutMsg: `Header still not displayed`});
+    async hoverOnCollections(menuOptionName,dropDownName){
+        await this.$menuOptions(menuOptionName).moveTo()
+        await this.$menuDropDown(dropDownName).scrollIntoView({block:"center"})
+        await this.$menuDropDown(dropDownName).click()
+        await this.$productPageHeader(dropDownName).waitForDisplayed()
 
+    }
 }
 
-}
-module.exports = new Homepage();
+module.exports = { homePage: new Homepage() };

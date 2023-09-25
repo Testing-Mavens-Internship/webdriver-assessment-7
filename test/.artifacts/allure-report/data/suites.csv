@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Mon Sep 25 16:10:05 IST 2023","Mon Sep 25 16:10:20 IST 2023","15341","","Tech Trove Application","","Tech Trove Application","Selecting the required the quantity and Selecting the Bluecolor","Selecting the required the quantity and Selecting the Bluecolor",""
+"passed","Mon Sep 25 16:10:03 IST 2023","Mon Sep 25 16:10:05 IST 2023","1600","","Tech Trove Application","","Tech Trove Application","Click on the P9 Air Max Wireless Stereo Headphone","Click on the P9 Air Max Wireless Stereo Headphone",""
+"passed","Mon Sep 25 16:10:02 IST 2023","Mon Sep 25 16:10:03 IST 2023","1503","","Tech Trove Application","","Tech Trove Application","Hover on Collections and click on Headphones","Hover on Collections and click on Headphones",""
+"passed","Mon Sep 25 16:09:56 IST 2023","Mon Sep 25 16:10:02 IST 2023","5826","","Tech Trove Application","","Tech Trove Application","Launch the Application","Launch the Application",""

@@ -1,0 +1,79 @@
+{
+  "b66ca22540d97de105f0e7ab4c0940" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ab6612f3117a5bb3",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    Error: Expect the cart header: Expected false to be true.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\adhit\\OneDrive\\Desktop\\webdriver-assessment-7\\test\\specs\\techTrove.spec.js:32:102)\n                        at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n                --- End of stack trace ---\n                \n                    Error: Expect the product name same as choose: Expected false to be true.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\adhit\\OneDrive\\Desktop\\webdriver-assessment-7\\test\\specs\\techTrove.spec.js:33:145)\n                        at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n                --- End of stack trace ---\n                ",
+      "time" : {
+        "start" : 1695638405422,
+        "stop" : 1695638420763,
+        "duration" : 15341
+      }
+    } ]
+  },
+  "d968965d088a9015de966161a5f58026" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f092df87060788ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1695638402316,
+        "stop" : 1695638403819,
+        "duration" : 1503
+      }
+    } ]
+  },
+  "cdbe3a217dd52ceaa062059eae1e9f34" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6343894faafe83c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1695638396489,
+        "stop" : 1695638402315,
+        "duration" : 5826
+      }
+    } ]
+  },
+  "85e059d8cd8edf5b543500ef76e77727" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "77bfb2e8132cddcb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1695638403820,
+        "stop" : 1695638405420,
+        "duration" : 1600
+      }
+    } ]
+  }
+}

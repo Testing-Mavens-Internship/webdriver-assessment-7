@@ -1,0 +1,86 @@
+{
+  "uid" : "ab6612f3117a5bb3",
+  "name" : "Selecting the required the quantity and Selecting the Bluecolor",
+  "fullName" : "Tech Trove Application.Selecting the required the quantity and Selecting the Bluecolor",
+  "historyId" : "b66ca22540d97de105f0e7ab4c0940",
+  "time" : {
+    "start" : 1695638405422,
+    "stop" : 1695638420763,
+    "duration" : 15341
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "CompoundError: One or more errors occurred. ---\n                \n                    Error: Expect the cart header: Expected false to be true.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\adhit\\OneDrive\\Desktop\\webdriver-assessment-7\\test\\specs\\techTrove.spec.js:32:102)\n                        at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n                --- End of stack trace ---\n                \n                    Error: Expect the product name same as choose: Expected false to be true.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\adhit\\OneDrive\\Desktop\\webdriver-assessment-7\\test\\specs\\techTrove.spec.js:33:145)\n                        at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n                --- End of stack trace ---\n                ",
+  "statusTrace" : "Error: CompoundError: One or more errors occurred. ---\n                \n                    Error: Expect the cart header: Expected false to be true.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\adhit\\OneDrive\\Desktop\\webdriver-assessment-7\\test\\specs\\techTrove.spec.js:32:102)\n                        at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n                --- End of stack trace ---\n                \n                    Error: Expect the product name same as choose: Expected false to be true.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\adhit\\OneDrive\\Desktop\\webdriver-assessment-7\\test\\specs\\techTrove.spec.js:33:145)\n                        at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n                --- End of stack trace ---\n                \n                    at getErrorFromFailedTest (C:\\Users\\adhit\\OneDrive\\Desktop\\webdriver-assessment-7\\node_modules\\@wdio\\allure-reporter\\build\\utils.js:82:60)\n                    at AllureReporter.onTestFail (C:\\Users\\adhit\\OneDrive\\Desktop\\webdriver-assessment-7\\node_modules\\@wdio\\allure-reporter\\build\\index.js:217:73)\n                    at AllureReporter.<anonymous> (C:\\Users\\adhit\\OneDrive\\Desktop\\webdriver-assessment-7\\node_modules\\@wdio\\reporter\\build\\index.js:121:18)\n                    at AllureReporter.emit (node:events:514:28)\n                    at AllureReporter.emit (node:domain:489:12)\n                    at C:\\Users\\adhit\\OneDrive\\Desktop\\webdriver-assessment-7\\node_modules\\@wdio\\runner\\build\\reporter.js:36:56\n                    at Array.forEach (<anonymous>)\n                    at BaseReporter.emit (C:\\Users\\adhit\\OneDrive\\Desktop\\webdriver-assessment-7\\node_modules\\@wdio\\runner\\build\\reporter.js:36:25)\n                    at JasmineReporter.emit (C:\\Users\\adhit\\OneDrive\\Desktop\\webdriver-assessment-7\\node_modules\\@wdio\\jasmine-framework\\build\\reporter.js:152:24)\n                    at JasmineReporter.specDone (C:\\Users\\adhit\\OneDrive\\Desktop\\webdriver-assessment-7\\node_modules\\@wdio\\jasmine-framework\\build\\reporter.js:85:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "CompoundError: One or more errors occurred. ---\n                \n                    Error: Expect the cart header: Expected false to be true.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\adhit\\OneDrive\\Desktop\\webdriver-assessment-7\\test\\specs\\techTrove.spec.js:32:102)\n                        at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n                --- End of stack trace ---\n                \n                    Error: Expect the product name same as choose: Expected false to be true.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\adhit\\OneDrive\\Desktop\\webdriver-assessment-7\\test\\specs\\techTrove.spec.js:33:145)\n                        at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n                --- End of stack trace ---\n                ",
+    "statusTrace" : "Error: CompoundError: One or more errors occurred. ---\n                \n                    Error: Expect the cart header: Expected false to be true.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\adhit\\OneDrive\\Desktop\\webdriver-assessment-7\\test\\specs\\techTrove.spec.js:32:102)\n                        at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n                --- End of stack trace ---\n                \n                    Error: Expect the product name same as choose: Expected false to be true.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\adhit\\OneDrive\\Desktop\\webdriver-assessment-7\\test\\specs\\techTrove.spec.js:33:145)\n                        at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n                --- End of stack trace ---\n                \n                    at getErrorFromFailedTest (C:\\Users\\adhit\\OneDrive\\Desktop\\webdriver-assessment-7\\node_modules\\@wdio\\allure-reporter\\build\\utils.js:82:60)\n                    at AllureReporter.onTestFail (C:\\Users\\adhit\\OneDrive\\Desktop\\webdriver-assessment-7\\node_modules\\@wdio\\allure-reporter\\build\\index.js:217:73)\n                    at AllureReporter.<anonymous> (C:\\Users\\adhit\\OneDrive\\Desktop\\webdriver-assessment-7\\node_modules\\@wdio\\reporter\\build\\index.js:121:18)\n                    at AllureReporter.emit (node:events:514:28)\n                    at AllureReporter.emit (node:domain:489:12)\n                    at C:\\Users\\adhit\\OneDrive\\Desktop\\webdriver-assessment-7\\node_modules\\@wdio\\runner\\build\\reporter.js:36:56\n                    at Array.forEach (<anonymous>)\n                    at BaseReporter.emit (C:\\Users\\adhit\\OneDrive\\Desktop\\webdriver-assessment-7\\node_modules\\@wdio\\runner\\build\\reporter.js:36:25)\n                    at JasmineReporter.emit (C:\\Users\\adhit\\OneDrive\\Desktop\\webdriver-assessment-7\\node_modules\\@wdio\\jasmine-framework\\build\\reporter.js:152:24)\n                    at JasmineReporter.specDone (C:\\Users\\adhit\\OneDrive\\Desktop\\webdriver-assessment-7\\node_modules\\@wdio\\jasmine-framework\\build\\reporter.js:85:14)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "46bffb69a4e40e62",
+      "name" : "Screenshot",
+      "source" : "46bffb69a4e40e62.png",
+      "type" : "image/png",
+      "size" : 69016
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Tech Trove Application"
+  }, {
+    "name" : "testClass",
+    "value" : "Tech Trove Application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Selecting the required the quantity and Selecting the Bluecolor"
+  }, {
+    "name" : "package",
+    "value" : "Tech Trove Application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-117.0.5938.92"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ab6612f3117a5bb3.json",
+  "parameterValues" : [ "chrome-117.0.5938.92" ]
+}

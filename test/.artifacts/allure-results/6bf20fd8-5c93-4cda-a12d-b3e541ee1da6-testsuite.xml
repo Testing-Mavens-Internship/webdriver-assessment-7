@@ -1,0 +1,115 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1695638396485' stop='1695638420766'>
+    <name>Tech Trove Application</name>
+    <title>Tech Trove Application</title>
+    <test-cases>
+        <test-case start='1695638396489' status='passed' stop='1695638402315'>
+            <name>Launch the Application</name>
+            <title>Launch the Application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-117.0.5938.92'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='af896f0a-b1e5-47a9-8be8-4d1524f682e7-attachment.png' type='image/png' size='737925'/>
+            </attachments>
+        </test-case>
+        <test-case start='1695638402316' status='passed' stop='1695638403819'>
+            <name>Hover on Collections and click on Headphones</name>
+            <title>Hover on Collections and click on Headphones</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-117.0.5938.92'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='dd55d473-6bb1-4c8f-8057-52793192eb29-attachment.png' type='image/png' size='373457'/>
+            </attachments>
+        </test-case>
+        <test-case start='1695638403820' status='passed' stop='1695638405420'>
+            <name>Click on the P9 Air Max Wireless Stereo Headphone</name>
+            <title>Click on the P9 Air Max Wireless Stereo Headphone</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-117.0.5938.92'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d5d732b1-d6d4-4c0e-a74a-6a3f60c5ad60-attachment.png' type='image/png' size='433568'/>
+            </attachments>
+        </test-case>
+        <test-case start='1695638405422' status='failed' stop='1695638420763'>
+            <name>Selecting the required the quantity and Selecting the Bluecolor</name>
+            <title>Selecting the required the quantity and Selecting the Bluecolor</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-117.0.5938.92'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='74f1142f-8577-4fd1-9cc8-0956eb06b077-attachment.png' type='image/png' size='69016'/>
+            </attachments>
+            <failure>
+                <message>CompoundError: One or more errors occurred. ---
+                
+                    Error: Expect the cart header: Expected false to be true.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (C:\Users\adhit\OneDrive\Desktop\webdriver-assessment-7\test\specs\techTrove.spec.js:32:102)
+                        at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                --- End of stack trace ---
+                
+                    Error: Expect the product name same as choose: Expected false to be true.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (C:\Users\adhit\OneDrive\Desktop\webdriver-assessment-7\test\specs\techTrove.spec.js:33:145)
+                        at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                --- End of stack trace ---
+                </message>
+                <stack-trace>Error: CompoundError: One or more errors occurred. ---
+                
+                    Error: Expect the cart header: Expected false to be true.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (C:\Users\adhit\OneDrive\Desktop\webdriver-assessment-7\test\specs\techTrove.spec.js:32:102)
+                        at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                --- End of stack trace ---
+                
+                    Error: Expect the product name same as choose: Expected false to be true.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (C:\Users\adhit\OneDrive\Desktop\webdriver-assessment-7\test\specs\techTrove.spec.js:33:145)
+                        at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                --- End of stack trace ---
+                
+                    at getErrorFromFailedTest (C:\Users\adhit\OneDrive\Desktop\webdriver-assessment-7\node_modules\@wdio\allure-reporter\build\utils.js:82:60)
+                    at AllureReporter.onTestFail (C:\Users\adhit\OneDrive\Desktop\webdriver-assessment-7\node_modules\@wdio\allure-reporter\build\index.js:217:73)
+                    at AllureReporter.&lt;anonymous> (C:\Users\adhit\OneDrive\Desktop\webdriver-assessment-7\node_modules\@wdio\reporter\build\index.js:121:18)
+                    at AllureReporter.emit (node:events:514:28)
+                    at AllureReporter.emit (node:domain:489:12)
+                    at C:\Users\adhit\OneDrive\Desktop\webdriver-assessment-7\node_modules\@wdio\runner\build\reporter.js:36:56
+                    at Array.forEach (&lt;anonymous>)
+                    at BaseReporter.emit (C:\Users\adhit\OneDrive\Desktop\webdriver-assessment-7\node_modules\@wdio\runner\build\reporter.js:36:25)
+                    at JasmineReporter.emit (C:\Users\adhit\OneDrive\Desktop\webdriver-assessment-7\node_modules\@wdio\jasmine-framework\build\reporter.js:152:24)
+                    at JasmineReporter.specDone (C:\Users\adhit\OneDrive\Desktop\webdriver-assessment-7\node_modules\@wdio\jasmine-framework\build\reporter.js:85:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

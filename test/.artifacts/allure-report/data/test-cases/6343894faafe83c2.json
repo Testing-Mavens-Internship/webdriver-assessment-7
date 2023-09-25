@@ -1,0 +1,78 @@
+{
+  "uid" : "6343894faafe83c2",
+  "name" : "Launch the Application",
+  "fullName" : "Tech Trove Application.Launch the Application",
+  "historyId" : "cdbe3a217dd52ceaa062059eae1e9f34",
+  "time" : {
+    "start" : 1695638396489,
+    "stop" : 1695638402315,
+    "duration" : 5826
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "29f3a56a979b246e",
+      "name" : "Screenshot",
+      "source" : "29f3a56a979b246e.png",
+      "type" : "image/png",
+      "size" : 737925
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Tech Trove Application"
+  }, {
+    "name" : "testClass",
+    "value" : "Tech Trove Application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Launch the Application"
+  }, {
+    "name" : "package",
+    "value" : "Tech Trove Application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-117.0.5938.92"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6343894faafe83c2.json",
+  "parameterValues" : [ "chrome-117.0.5938.92" ]
+}

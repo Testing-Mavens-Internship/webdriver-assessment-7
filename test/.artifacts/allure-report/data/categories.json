@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "CompoundError: One or more errors occurred. ---\n                \n                    Error: Expect the cart header: Expected false to be true.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\adhit\\OneDrive\\Desktop\\webdriver-assessment-7\\test\\specs\\techTrove.spec.js:32:102)\n                        at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n                --- End of stack trace ---\n                \n                    Error: Expect the product name same as choose: Expected false to be true.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\adhit\\OneDrive\\Desktop\\webdriver-assessment-7\\test\\specs\\techTrove.spec.js:33:145)\n                        at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n                --- End of stack trace ---\n                ",
+      "children" : [ {
+        "name" : "Selecting the required the quantity and Selecting the Bluecolor",
+        "uid" : "ab6612f3117a5bb3",
+        "parentUid" : "5abc1b5fec1366fc8555d6a3f138e871",
+        "status" : "failed",
+        "time" : {
+          "start" : 1695638405422,
+          "stop" : 1695638420763,
+          "duration" : 15341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-117.0.5938.92" ]
+      } ],
+      "uid" : "5abc1b5fec1366fc8555d6a3f138e871"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

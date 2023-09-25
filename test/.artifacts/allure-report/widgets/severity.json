@@ -1,0 +1,41 @@
+[ {
+  "uid" : "f092df87060788ad",
+  "name" : "Hover on Collections and click on Headphones",
+  "time" : {
+    "start" : 1695638402316,
+    "stop" : 1695638403819,
+    "duration" : 1503
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6343894faafe83c2",
+  "name" : "Launch the Application",
+  "time" : {
+    "start" : 1695638396489,
+    "stop" : 1695638402315,
+    "duration" : 5826
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77bfb2e8132cddcb",
+  "name" : "Click on the P9 Air Max Wireless Stereo Headphone",
+  "time" : {
+    "start" : 1695638403820,
+    "stop" : 1695638405420,
+    "duration" : 1600
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab6612f3117a5bb3",
+  "name" : "Selecting the required the quantity and Selecting the Bluecolor",
+  "time" : {
+    "start" : 1695638405422,
+    "stop" : 1695638420763,
+    "duration" : 15341
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

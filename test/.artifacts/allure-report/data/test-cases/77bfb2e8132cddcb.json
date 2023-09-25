@@ -1,0 +1,78 @@
+{
+  "uid" : "77bfb2e8132cddcb",
+  "name" : "Click on the P9 Air Max Wireless Stereo Headphone",
+  "fullName" : "Tech Trove Application.Click on the P9 Air Max Wireless Stereo Headphone",
+  "historyId" : "85e059d8cd8edf5b543500ef76e77727",
+  "time" : {
+    "start" : 1695638403820,
+    "stop" : 1695638405420,
+    "duration" : 1600
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "140d9d00bdb01c0c",
+      "name" : "Screenshot",
+      "source" : "140d9d00bdb01c0c.png",
+      "type" : "image/png",
+      "size" : 433568
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Tech Trove Application"
+  }, {
+    "name" : "testClass",
+    "value" : "Tech Trove Application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on the P9 Air Max Wireless Stereo Headphone"
+  }, {
+    "name" : "package",
+    "value" : "Tech Trove Application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-117.0.5938.92"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "77bfb2e8132cddcb.json",
+  "parameterValues" : [ "chrome-117.0.5938.92" ]
+}

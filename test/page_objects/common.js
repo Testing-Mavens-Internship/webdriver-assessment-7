@@ -1,27 +1,15 @@
-/**
- * Export
- */
 class Common {
-	constructor() {
-		/**
-		 * Elements
-		 */
-		this.$pageHeader = title => $(`//div[contains(text(),'${title}')]`);
-	}
+    constructor() {
+        this.$mainHeader = () => $(`//a[@class="site-header__logo-link logo--has-inverted"]`); // Application Logo
+        this.$productPageHeader=(headerName)=>$(`//h1[contains(text(),"${headerName}")]`) // product name header
+        this.$button=(buttonName)=>$(`//span[text()="${buttonName}"]`) //button
+        
+    }
 
-
-	/**
-	 * Methods
-	 */
-
-	/**
-	 * Open up the application
-	 * @param {string} url URL of the application
-	 */
-	async openUrl(url) {
-		await browser.url(url);
-		await browser.maximizeWindow();
-	}
+    async launchUrl() {
+        await browser.url("https://techstrove.com/");
+        await browser.maximizeWindow()
+        await this.$mainHeader().waitForDisplayed()
+    }
 }
-
 module.exports = Common;
