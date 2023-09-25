@@ -29,7 +29,7 @@ exports.config = {
     // then the current working directory is where your `package.json` resides, so `wdio`
     // will be called from there.
     //
-    specs: ['./test/specs/**/*.js'],
+    specs: ['techstrove/specs/techstrove.spec.js'],
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -63,34 +63,32 @@ exports.config = {
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
     // https://saucelabs.com/platform/platform-configurator
     //
-    capabilities: [
-        {
-            // maxInstances can get overwritten per capability. So if you have an in-house Selenium
-            // grid with only 5 firefox instances available you can make sure that not more than
-            // 5 instances get started at a time.
-            'maxInstances': 1,
-            'browserName': 'chrome',
-            'acceptInsecureCerts': true,
-            'goog:chromeOptions': {
-                args: [
-                    '--window-size=1920,1080',
-                    '--incognito',
-                    '--headless=new',
-                    '--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36',
-                ],
-                excludeSwitches: ['enable-automation'],
-                prefs: {
-                    'download.prompt_for_download': false,
-                    'directory_upgrade': true,
-                    'download.default_directory': downloadsFolder,
-                },
+    capabilities: [{
+        // maxInstances can get overwritten per capability. So if you have an in-house Selenium
+        // grid with only 5 firefox instances available you can make sure that not more than
+        // 5 instances get started at a time.
+        'maxInstances': 1,
+        'browserName': 'chrome',
+        'acceptInsecureCerts': true,
+        'goog:chromeOptions': {
+            args: [
+                '--window-size=1920,1080',
+                '--incognito',
+                //'--headless=new',
+                '--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36',
+            ],
+            excludeSwitches: ['enable-automation'],
+            prefs: {
+                'download.prompt_for_download': false,
+                'directory_upgrade': true,
+                'download.default_directory': downloadsFolder,
             },
-            // If outputDir is provided WebdriverIO can capture driver session logs
-            // it is possible to configure which logTypes to include/exclude.
-            // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
-            // excludeDriverLogs: ['bugreport', 'server'],
         },
-    ],
+        // If outputDir is provided WebdriverIO can capture driver session logs
+        // it is possible to configure which logTypes to include/exclude.
+        // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
+        // excludeDriverLogs: ['bugreport', 'server'],
+    }, ],
     //
     // ===================
     // Test Configurations
@@ -163,10 +161,10 @@ exports.config = {
         [
             'spec',
             {
-              symbols:{
-                passed: '[PASS]',
-                failed: '[FAIL]'
-              },
+                symbols: {
+                    passed: '[PASS]',
+                    failed: '[FAIL]'
+                },
                 addConsoleLogs: true,
                 realtimeReporting: true,
             },
@@ -206,7 +204,7 @@ exports.config = {
         // The Jasmine framework allows interception of each assertion in order to log the state of the application
         // or website depending on the result. For example, it is pretty handy to take a screenshot every time
         // an assertion fails.
-        expectationResultHandler: function (passed, assertion) {
+        expectationResultHandler: function(passed, assertion) {
             if (!passed) debugger;
         },
     },
@@ -223,7 +221,7 @@ exports.config = {
      * @param {Object} config wdio configuration object
      * @param {Array.<Object>} capabilities list of capabilities details
      */
-    onPrepare: function (config, capabilities) {
+    onPrepare: function(config, capabilities) {
         const dir = 'test/.artifacts';
         try {
             if (!fs.existsSync(tmpFilesPath)) {
@@ -235,7 +233,7 @@ exports.config = {
 
         // delete directory recursively
         if (fs.existsSync(dir)) {
-            fs.rm(dir, {recursive: true}, err => {
+            fs.rm(dir, { recursive: true }, err => {
                 if (err) {
                     throw err;
                 }
@@ -254,7 +252,7 @@ exports.config = {
      * @param  {[type]} args     object that will be merged with the main configuration once worker is initialised
      * @param  {[type]} execArgv list of string arguments passed to the worker process
      */
-    onWorkerStart: function (cid, caps, specs, args, execArgv) {},
+    onWorkerStart: function(cid, caps, specs, args, execArgv) {},
     /**
      * Gets executed just before initialising the webdriver session and test framework. It allows you
      * to manipulate configurations depending on the capability or spec.
@@ -315,7 +313,7 @@ exports.config = {
      * @param {Boolean} result.passed    true if test has passed, otherwise false
      * @param {Object}  result.retries   informations to spec related retries, e.g. `{ attempts: 0, limit: 0 }`
      */
-    afterTest: async function (test, context, {error, result, duration, passed, retries}) {
+    afterTest: async function(test, context, { error, result, duration, passed, retries }) {
         await browser.takeScreenshot();
 
         //To capture all API logs
@@ -365,13 +363,13 @@ exports.config = {
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {<Object>} results object containing test results
      */
-    onComplete: async function (exitCode, config, capabilities, results) {
+    onComplete: async function(exitCode, config, capabilities, results) {
         const reportError = new Error('Could not generate Allure report');
         const generation = allure(['generate', 'test/.artifacts/allure-results', , '--report-dir', 'test/.artifacts/allure-report']);
         return new Promise((resolve, reject) => {
             const generationTimeout = setTimeout(() => reject(reportError), 10000);
 
-            generation.on('exit', function (exitCode) {
+            generation.on('exit', function(exitCode) {
                 clearTimeout(generationTimeout);
 
                 if (exitCode !== 0) {
