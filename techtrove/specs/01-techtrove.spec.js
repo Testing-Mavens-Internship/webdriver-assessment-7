@@ -50,4 +50,20 @@ describe('End to End Automation of Techtrove Application', () => {
         .withContext('Expect cart header to be displayed')
         .toBe(true);
 	});
+    it('Verify Color of product', async() => {
+        let displayedColor = await cartPage.$displayedColor().getText();
+        expect(await displayedColor.includes(testData.color))
+        .withContext(`Expect colour equal to ${testData.color}`)
+        .toBe(true);
+    })
+    it('Validate total Price', async() => {
+        let itemPrice = await cartPage.$unitPrice().getText();
+        let unitPrice = await parseFloat(itemPrice.slice(1));
+        let total = await cartPage.$totalPrice().getText();
+        let totalPrice = await parseFloat(total.slice(1));
+
+        expect(await cartPage.verifyTotal(unitPrice, totalPrice, testData.quantity))
+        .withContext('Verify Total Price')
+        .toBe(true);
+    });
 });
