@@ -6,10 +6,8 @@ class Common {
 		/**
 		 * Elements
 		 */
-		this.$pageHeader = title => $(`//div[contains(text(),'${title}')]`);
+		this.$pageHeader = title => $(`//span[contains(text(),'${title}')]`);
 	}
-
-
 	/**
 	 * Methods
 	 */
@@ -18,9 +16,10 @@ class Common {
 	 * Open up the application
 	 * @param {string} url URL of the application
 	 */
-	async openUrl(url) {
-		await browser.url(url);
+	async openUrl() {
+		await browser.url('https://techstrove.com/');
 		await browser.maximizeWindow();
+		await this.$pageHeader().waitForDisplayed({timeout: 40000});
 	}
 }
 

@@ -1,25 +1,25 @@
-const Commom = require("./common");
-class Homepage extends Commom {
+const Common = require('./common.js');
+class Homepage extends Common {
 	constructor() {
 		super();
-		this.$homePageHeader = (header) =>  $(`//h1[contains(text(),'${header}')]`);
-		this.$topNavigationBar = (menu) => $(`//div[@class="navbar-link-wrapper"]//a[contains(text(),'${menu}')]`);
+		this.$collection = () => $('//div[@class="header-item header-item--navigation text-center"]//a[contains(text(),"Collections")]');
+		this.$headPhones = () => $(`//div[@class="mobile-nav__child-item"] //a[contains(text(),"this.$sideTitle = () => $('//h1[contains(text(),"Headphone")]`);
 	}
 
-/**
- * Methods
-*/
+	/**
+	 * Method to hover collection option
+	 */
+	async hoverCollection() {
+		await this.browser.elementHover("Collections");
+		await this.$headPhones().click();
+	}
 
-/**
- * Method to click on Get Started
- * @param {String} name Name of the Navigation Icon
- * @param {String} header 
- */
-async getStarted(name,header){
-	await this.$topNavigationBar(name).click();
-	await this.$homePageHeader(header).waitForDisplayed({timeout: 30000, timeoutMsg: `Header still not displayed`});
-
+	/**
+	 * Method to select headphones from the dropdown
+	 */
+	async clickOnHeadphones() {
+		await this.$headPhones().click();
+	}
 }
 
-}
-module.exports = new Homepage();
+module.exports = {homePage: new Homepage()};
