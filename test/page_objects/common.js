@@ -1,27 +1,15 @@
-/**
- * Export
- */
 class Common {
-	constructor() {
-		/**
-		 * Elements
-		 */
-		this.$pageHeader = title => $(`//div[contains(text(),'${title}')]`);
-	}
-
-
-	/**
-	 * Methods
-	 */
-
-	/**
-	 * Open up the application
-	 * @param {string} url URL of the application
-	 */
-	async openUrl(url) {
-		await browser.url(url);
-		await browser.maximizeWindow();
-	}
+    //locator
+    constructor(){
+        this.$header = () => $('//h1[@class="site-header__logo"]');
+    }
+    /**
+    * function for launching url
+    */
+   async openUrl() {
+    await browser.url('https://techstrove.com/');
+    await browser.maximizeWindow();
+    await this.$header().waitForDisplayed({setTimeout:20000});
+ }
 }
-
 module.exports = Common;
