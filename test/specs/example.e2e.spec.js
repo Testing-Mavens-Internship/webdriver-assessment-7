@@ -1,16 +1,28 @@
 const homePage = require('../page_objects/homePage');
-const env = require('../../test-data/url.json')
+const env = require('../../test-data/url.json');
 const testData = require('../../test-data/testData.json');
+const {viewPage} = require('../page_objects/view-page');
 
-describe('QaWolf.com  ', () => {
-		it('should be able to launch url', async () => {
-			await homePage.openUrl(env.baseUrl);
-			await expect(browser).toHaveUrl('https://www.qawolf.com/');
-		});
-		it('user should be able to Click on GET STARTED', async () => {
-			await homePage.getStarted(testData.getStarted,'Get started with QA Wolf');
-			expect(await homePage.$homePageHeader('Get started with QA Wolf').isDisplayed()).toBe(true, 'Expect startup page header to be displayed');
-			await expect(browser).toHaveUrl('https://www.qawolf.com/get-started');
-		});
+describe('Automation of the techtrove.com headphone purchasing process', () => {
+	it('Should be able to launch url', async () => {
+		await homePage.openUrl();
+		await expect(browser).toHaveUrl('https://techstrove.com/');
+		expect(await homePage.$pageHeader().isDisplayed())
+			.withContext('Expect header to be displayed')
+			.toBe(true);
 	});
 
+	it('user should be able to clickon Headphone tab', async () => {
+		await homePage.clickONHeadphone();
+		expect(await homePage.$sectionHeader('Headphone').isDisplayed())
+			.withContext('Expect header to be displayed')
+			.toBe(true);
+	});
+
+	it('User selects a Headphone', async () => {
+		expect(await viewPage.selectProduct(testData.color)).toBe(true);
+		expect(await viewPage.$checkOutHeader().isDisplayed())
+			.withContext('Expect header to be displayed')
+			.toBe(true);
+	});
+});
