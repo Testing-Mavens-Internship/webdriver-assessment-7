@@ -32,7 +32,9 @@
         "arrowParens": "avoid"
     },
     "dependencies": {
+        "@faker-js/faker": "^8.1.0",
         "allure-single-html-file-js": "^0.0.3",
+        "faker": "^6.6.6",
         "log-to-file": "^3.0.0"
     }
 }

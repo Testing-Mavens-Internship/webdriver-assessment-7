@@ -1,4 +1,12 @@
-{
-    "getStarted" : "Get started"
+{ 
+    "headPhone" : "Headphone",
+ "header" : "Collection",
+ "product" : "Wireless Bluetooth Headphones",
+ "subHeader" : "Contact",
+ "firstName" : "Faker.person.firstName()",
+"lastName" : "Faker.person.lastName()",
+ "address" : "Faker.address()",
+ "phone" : "'9' + Faker.number.int({ min: 99999999, max: 999999999 })"
+ 
     
 }
