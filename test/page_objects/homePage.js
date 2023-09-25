@@ -1,25 +1,17 @@
-const Commom = require("./common");
-class Homepage extends Commom {
+const Common = require("./common");
+class Homepage extends Common {
 	constructor() {
 		super();
-		this.$homePageHeader = (header) =>  $(`//h1[contains(text(),'${header}')]`);
-		this.$topNavigationBar = (menu) => $(`//div[@class="navbar-link-wrapper"]//a[contains(text(),'${menu}')]`);
-	}
+		}
+		/**
+		 * method to select outlet
+		 * @param {string} second 
+		 * @param {string} drop 
+		 */
+		async clickSubHeader(second,drop){
+			await this.$secondHeader(second).moveTo();
+			await this.$dropDownHeader(drop).click();
 
-/**
- * Methods
-*/
-
-/**
- * Method to click on Get Started
- * @param {String} name Name of the Navigation Icon
- * @param {String} header 
- */
-async getStarted(name,header){
-	await this.$topNavigationBar(name).click();
-	await this.$homePageHeader(header).waitForDisplayed({timeout: 30000, timeoutMsg: `Header still not displayed`});
-
-}
-
+		}
 }
 module.exports = new Homepage();

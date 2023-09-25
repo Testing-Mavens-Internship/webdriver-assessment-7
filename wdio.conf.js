@@ -29,7 +29,7 @@ exports.config = {
     // then the current working directory is where your `package.json` resides, so `wdio`
     // will be called from there.
     //
-    specs: ['./test/specs/**/*.js'],
+    specs: ['./test/specs/techstrove.spec.js'],
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -75,7 +75,7 @@ exports.config = {
                 args: [
                     '--window-size=1920,1080',
                     '--incognito',
-                    '--headless=new',
+                   // '--headless=new',
                     '--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36',
                 ],
                 excludeSwitches: ['enable-automation'],
