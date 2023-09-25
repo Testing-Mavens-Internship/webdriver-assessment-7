@@ -1,0 +1,51 @@
+[ {
+  "uid" : "e55b4f3158643929",
+  "name" : "Select colour and number of items",
+  "time" : {
+    "start" : 1695637475964,
+    "stop" : 1695637488758,
+    "duration" : 12794
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "27faa11d417569d8",
+  "name" : "Hover over collections and select headphones",
+  "time" : {
+    "start" : 1695637473811,
+    "stop" : 1695637474872,
+    "duration" : 1061
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee8772e90f63f3c4",
+  "name" : "Launch the TechTrove url and validate header",
+  "time" : {
+    "start" : 1695637471772,
+    "stop" : 1695637473811,
+    "duration" : 2039
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "710b9ec4d266bdc5",
+  "name" : "valiadate price of item ",
+  "time" : {
+    "start" : 1695637488759,
+    "stop" : 1695637489056,
+    "duration" : 297
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff8412fb9b14c336",
+  "name" : "Click on item and validate navigation",
+  "time" : {
+    "start" : 1695637474873,
+    "stop" : 1695637475953,
+    "duration" : 1080
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

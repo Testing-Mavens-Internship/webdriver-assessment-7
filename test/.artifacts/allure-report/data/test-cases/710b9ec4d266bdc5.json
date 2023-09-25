@@ -1,0 +1,86 @@
+{
+  "uid" : "710b9ec4d266bdc5",
+  "name" : "valiadate price of item ",
+  "fullName" : "End-to-end automation of TechTrove application.valiadate price of item ",
+  "historyId" : "50ab11b20e5e3f703a962038e52b8afc",
+  "time" : {
+    "start" : 1695637488759,
+    "stop" : 1695637489056,
+    "duration" : 297
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: elem[prop] is not a function",
+  "statusTrace" : "TypeError: elem[prop] is not a function\n                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n                    at async LandingPage.calculatePrice (C:\\Users\\HP\\Desktop\\Automation-assessment\\webdriver-assessment-7\\techTrove\\pageobjects\\landing-page.js:55:18)\n                    at async UserContext.<anonymous> (C:\\Users\\HP\\Desktop\\Automation-assessment\\webdriver-assessment-7\\techTrove\\specs\\techTrove.spec.js:26:17)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TypeError: elem[prop] is not a function",
+    "statusTrace" : "TypeError: elem[prop] is not a function\n                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n                    at async LandingPage.calculatePrice (C:\\Users\\HP\\Desktop\\Automation-assessment\\webdriver-assessment-7\\techTrove\\pageobjects\\landing-page.js:55:18)\n                    at async UserContext.<anonymous> (C:\\Users\\HP\\Desktop\\Automation-assessment\\webdriver-assessment-7\\techTrove\\specs\\techTrove.spec.js:26:17)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "85c9447443ef96e9",
+      "name" : "Screenshot",
+      "source" : "85c9447443ef96e9.png",
+      "type" : "image/png",
+      "size" : 460677
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "End-to-end automation of TechTrove application"
+  }, {
+    "name" : "testClass",
+    "value" : "End-to-end automation of TechTrove application"
+  }, {
+    "name" : "testMethod",
+    "value" : "valiadate price of item "
+  }, {
+    "name" : "package",
+    "value" : "End-to-end automation of TechTrove application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-117.0.5938.92"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "710b9ec4d266bdc5.json",
+  "parameterValues" : [ "chrome-117.0.5938.92" ]
+}

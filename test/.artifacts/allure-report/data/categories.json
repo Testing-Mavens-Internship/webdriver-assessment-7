@@ -1,0 +1,51 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error: element (\"//div[@class=\"ajaxcart__product-name--wrapper\"]\") still not displayed after 12000ms",
+      "children" : [ {
+        "name" : "Select colour and number of items",
+        "uid" : "e55b4f3158643929",
+        "parentUid" : "164aa0b1f16ca3c49ce853fa8cf6b4d3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1695637475964,
+          "stop" : 1695637488758,
+          "duration" : 12794
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-117.0.5938.92" ]
+      } ],
+      "uid" : "164aa0b1f16ca3c49ce853fa8cf6b4d3"
+    }, {
+      "name" : "TypeError: elem[prop] is not a function",
+      "children" : [ {
+        "name" : "valiadate price of item ",
+        "uid" : "710b9ec4d266bdc5",
+        "parentUid" : "7d4b79c6315d45a8beef9cbed6c12ff4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1695637488759,
+          "stop" : 1695637489056,
+          "duration" : 297
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-117.0.5938.92" ]
+      } ],
+      "uid" : "7d4b79c6315d45a8beef9cbed6c12ff4"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,78 @@
+{
+  "uid" : "ff8412fb9b14c336",
+  "name" : "Click on item and validate navigation",
+  "fullName" : "End-to-end automation of TechTrove application.Click on item and validate navigation",
+  "historyId" : "34732485a4f8703fee199ba70ee9c1ee",
+  "time" : {
+    "start" : 1695637474873,
+    "stop" : 1695637475953,
+    "duration" : 1080
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2bb5639162e51272",
+      "name" : "Screenshot",
+      "source" : "2bb5639162e51272.png",
+      "type" : "image/png",
+      "size" : 255963
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "End-to-end automation of TechTrove application"
+  }, {
+    "name" : "testClass",
+    "value" : "End-to-end automation of TechTrove application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on item and validate navigation"
+  }, {
+    "name" : "package",
+    "value" : "End-to-end automation of TechTrove application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-117.0.5938.92"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff8412fb9b14c336.json",
+  "parameterValues" : [ "chrome-117.0.5938.92" ]
+}

@@ -1,0 +1,100 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1695637471770' stop='1695637489061'>
+    <name>End-to-end automation of TechTrove application</name>
+    <title>End-to-end automation of TechTrove application</title>
+    <test-cases>
+        <test-case start='1695637471772' status='passed' stop='1695637473811'>
+            <name>Launch the TechTrove url and validate header</name>
+            <title>Launch the TechTrove url and validate header</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-117.0.5938.92'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2be0808a-6652-4f28-9b73-7bb626956af7-attachment.png' type='image/png' size='528088'/>
+            </attachments>
+        </test-case>
+        <test-case start='1695637473811' status='passed' stop='1695637474872'>
+            <name>Hover over collections and select headphones</name>
+            <title>Hover over collections and select headphones</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-117.0.5938.92'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b7d585b1-e780-4bc9-be91-4c81068d456a-attachment.png' type='image/png' size='195102'/>
+            </attachments>
+        </test-case>
+        <test-case start='1695637474873' status='passed' stop='1695637475953'>
+            <name>Click on item and validate navigation</name>
+            <title>Click on item and validate navigation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-117.0.5938.92'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='29e204b0-9c73-43a8-83b0-c03034b80370-attachment.png' type='image/png' size='255963'/>
+            </attachments>
+        </test-case>
+        <test-case start='1695637475964' status='failed' stop='1695637488758'>
+            <name>Select colour and number of items</name>
+            <title>Select colour and number of items</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-117.0.5938.92'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e77a3505-8289-45e3-99e3-20996b94770f-attachment.png' type='image/png' size='460677'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("//div[@class="ajaxcart__product-name--wrapper"]") still not displayed after 12000ms</message>
+                <stack-trace>Error: element ("//div[@class="ajaxcart__product-name--wrapper"]") still not displayed after 12000ms
+                    at async LandingPage.clickOnColor (C:\Users\HP\Desktop\Automation-assessment\webdriver-assessment-7\techTrove\pageobjects\landing-page.js:51:9)
+                    at async UserContext.&lt;anonymous> (C:\Users\HP\Desktop\Automation-assessment\webdriver-assessment-7\techTrove\specs\techTrove.spec.js:21:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1695637488759' status='failed' stop='1695637489056'>
+            <name>valiadate price of item </name>
+            <title>valiadate price of item </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-117.0.5938.92'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9f81b052-adb4-40e8-9e9c-05fd94a92191-attachment.png' type='image/png' size='460677'/>
+            </attachments>
+            <failure>
+                <message>TypeError: elem[prop] is not a function</message>
+                <stack-trace>TypeError: elem[prop] is not a function
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async LandingPage.calculatePrice (C:\Users\HP\Desktop\Automation-assessment\webdriver-assessment-7\techTrove\pageobjects\landing-page.js:55:18)
+                    at async UserContext.&lt;anonymous> (C:\Users\HP\Desktop\Automation-assessment\webdriver-assessment-7\techTrove\specs\techTrove.spec.js:26:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

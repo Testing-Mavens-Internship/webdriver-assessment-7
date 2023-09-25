@@ -1,0 +1,78 @@
+{
+  "uid" : "27faa11d417569d8",
+  "name" : "Hover over collections and select headphones",
+  "fullName" : "End-to-end automation of TechTrove application.Hover over collections and select headphones",
+  "historyId" : "ebc983a66a30b7ce3cb4186fb130d73e",
+  "time" : {
+    "start" : 1695637473811,
+    "stop" : 1695637474872,
+    "duration" : 1061
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "720d525851c4d12c",
+      "name" : "Screenshot",
+      "source" : "720d525851c4d12c.png",
+      "type" : "image/png",
+      "size" : 195102
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "End-to-end automation of TechTrove application"
+  }, {
+    "name" : "testClass",
+    "value" : "End-to-end automation of TechTrove application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Hover over collections and select headphones"
+  }, {
+    "name" : "package",
+    "value" : "End-to-end automation of TechTrove application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-117.0.5938.92"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "27faa11d417569d8.json",
+  "parameterValues" : [ "chrome-117.0.5938.92" ]
+}

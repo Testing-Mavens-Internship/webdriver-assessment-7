@@ -1,0 +1,99 @@
+{
+  "4e6cc0d334ee203f91a35a562dde1716" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e55b4f3158643929",
+      "status" : "failed",
+      "statusDetails" : "Error: element (\"//div[@class=\"ajaxcart__product-name--wrapper\"]\") still not displayed after 12000ms",
+      "time" : {
+        "start" : 1695637475964,
+        "stop" : 1695637488758,
+        "duration" : 12794
+      }
+    } ]
+  },
+  "34732485a4f8703fee199ba70ee9c1ee" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff8412fb9b14c336",
+      "status" : "passed",
+      "time" : {
+        "start" : 1695637474873,
+        "stop" : 1695637475953,
+        "duration" : 1080
+      }
+    } ]
+  },
+  "ebc983a66a30b7ce3cb4186fb130d73e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "27faa11d417569d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1695637473811,
+        "stop" : 1695637474872,
+        "duration" : 1061
+      }
+    } ]
+  },
+  "50ab11b20e5e3f703a962038e52b8afc" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "710b9ec4d266bdc5",
+      "status" : "failed",
+      "statusDetails" : "TypeError: elem[prop] is not a function",
+      "time" : {
+        "start" : 1695637488759,
+        "stop" : 1695637489056,
+        "duration" : 297
+      }
+    } ]
+  },
+  "d573bfa400a78e5d443440e440f1793" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ee8772e90f63f3c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1695637471772,
+        "stop" : 1695637473811,
+        "duration" : 2039
+      }
+    } ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "End-to-end automation of TechTrove application",
+    "children" : [ {
+      "name" : "Launch the TechTrove url and validate header",
+      "uid" : "ee8772e90f63f3c4",
+      "parentUid" : "1c3aa62e5abc6f8aeb7953d322833c03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1695637471772,
+        "stop" : 1695637473811,
+        "duration" : 2039
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-117.0.5938.92" ]
+    }, {
+      "name" : "Hover over collections and select headphones",
+      "uid" : "27faa11d417569d8",
+      "parentUid" : "1c3aa62e5abc6f8aeb7953d322833c03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1695637473811,
+        "stop" : 1695637474872,
+        "duration" : 1061
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-117.0.5938.92" ]
+    }, {
+      "name" : "Click on item and validate navigation",
+      "uid" : "ff8412fb9b14c336",
+      "parentUid" : "1c3aa62e5abc6f8aeb7953d322833c03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1695637474873,
+        "stop" : 1695637475953,
+        "duration" : 1080
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-117.0.5938.92" ]
+    }, {
+      "name" : "Select colour and number of items",
+      "uid" : "e55b4f3158643929",
+      "parentUid" : "1c3aa62e5abc6f8aeb7953d322833c03",
+      "status" : "failed",
+      "time" : {
+        "start" : 1695637475964,
+        "stop" : 1695637488758,
+        "duration" : 12794
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-117.0.5938.92" ]
+    }, {
+      "name" : "valiadate price of item ",
+      "uid" : "710b9ec4d266bdc5",
+      "parentUid" : "1c3aa62e5abc6f8aeb7953d322833c03",
+      "status" : "failed",
+      "time" : {
+        "start" : 1695637488759,
+        "stop" : 1695637489056,
+        "duration" : 297
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-117.0.5938.92" ]
+    } ],
+    "uid" : "1c3aa62e5abc6f8aeb7953d322833c03"
+  } ]
+}

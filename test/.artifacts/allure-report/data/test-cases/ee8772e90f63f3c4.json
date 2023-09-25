@@ -1,0 +1,78 @@
+{
+  "uid" : "ee8772e90f63f3c4",
+  "name" : "Launch the TechTrove url and validate header",
+  "fullName" : "End-to-end automation of TechTrove application.Launch the TechTrove url and validate header",
+  "historyId" : "d573bfa400a78e5d443440e440f1793",
+  "time" : {
+    "start" : 1695637471772,
+    "stop" : 1695637473811,
+    "duration" : 2039
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c43a8368d6ebf08d",
+      "name" : "Screenshot",
+      "source" : "c43a8368d6ebf08d.png",
+      "type" : "image/png",
+      "size" : 528088
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "End-to-end automation of TechTrove application"
+  }, {
+    "name" : "testClass",
+    "value" : "End-to-end automation of TechTrove application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Launch the TechTrove url and validate header"
+  }, {
+    "name" : "package",
+    "value" : "End-to-end automation of TechTrove application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-117.0.5938.92"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ee8772e90f63f3c4.json",
+  "parameterValues" : [ "chrome-117.0.5938.92" ]
+}

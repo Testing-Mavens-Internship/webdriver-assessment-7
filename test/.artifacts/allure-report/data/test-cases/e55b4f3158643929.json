@@ -1,0 +1,86 @@
+{
+  "uid" : "e55b4f3158643929",
+  "name" : "Select colour and number of items",
+  "fullName" : "End-to-end automation of TechTrove application.Select colour and number of items",
+  "historyId" : "4e6cc0d334ee203f91a35a562dde1716",
+  "time" : {
+    "start" : 1695637475964,
+    "stop" : 1695637488758,
+    "duration" : 12794
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: element (\"//div[@class=\"ajaxcart__product-name--wrapper\"]\") still not displayed after 12000ms",
+  "statusTrace" : "Error: element (\"//div[@class=\"ajaxcart__product-name--wrapper\"]\") still not displayed after 12000ms\n                    at async LandingPage.clickOnColor (C:\\Users\\HP\\Desktop\\Automation-assessment\\webdriver-assessment-7\\techTrove\\pageobjects\\landing-page.js:51:9)\n                    at async UserContext.<anonymous> (C:\\Users\\HP\\Desktop\\Automation-assessment\\webdriver-assessment-7\\techTrove\\specs\\techTrove.spec.js:21:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: element (\"//div[@class=\"ajaxcart__product-name--wrapper\"]\") still not displayed after 12000ms",
+    "statusTrace" : "Error: element (\"//div[@class=\"ajaxcart__product-name--wrapper\"]\") still not displayed after 12000ms\n                    at async LandingPage.clickOnColor (C:\\Users\\HP\\Desktop\\Automation-assessment\\webdriver-assessment-7\\techTrove\\pageobjects\\landing-page.js:51:9)\n                    at async UserContext.<anonymous> (C:\\Users\\HP\\Desktop\\Automation-assessment\\webdriver-assessment-7\\techTrove\\specs\\techTrove.spec.js:21:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a7f81a77bde2c2e9",
+      "name" : "Screenshot",
+      "source" : "a7f81a77bde2c2e9.png",
+      "type" : "image/png",
+      "size" : 460677
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "End-to-end automation of TechTrove application"
+  }, {
+    "name" : "testClass",
+    "value" : "End-to-end automation of TechTrove application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Select colour and number of items"
+  }, {
+    "name" : "package",
+    "value" : "End-to-end automation of TechTrove application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-117.0.5938.92"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e55b4f3158643929.json",
+  "parameterValues" : [ "chrome-117.0.5938.92" ]
+}
